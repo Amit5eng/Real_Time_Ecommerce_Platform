@@ -1,0 +1,43 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.class
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+secrets.yml
+
+# Generated streaming data and checkpoints
+data/
+checkpoints/
+logs/
+spark-warehouse/
+metastore_db/
+
+# Downloaded dependencies and diagnostic artifacts
+*.jar
+HadoopNativeCheck.java
+HadoopNativeCheck.class
+s3_test.txt
+
+# Temporary and backup files
+*.backup
+*.before_parallel_fix
+*.log
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
